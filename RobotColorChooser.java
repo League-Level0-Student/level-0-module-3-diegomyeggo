@@ -22,7 +22,7 @@ public class RobotColorChooser {
 		//4. Set the pen width to 10
 		
 	    //2. Make the robot draw a shape (this will take more than one line of code)
-arnold.mouseMove(20, 0);
 
+		
 	}
 }
