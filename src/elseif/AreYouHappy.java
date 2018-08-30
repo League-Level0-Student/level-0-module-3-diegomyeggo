@@ -10,7 +10,15 @@ if (happy.equals("Yes")) {
 	JOptionPane.showMessageDialog(null, "Keep doing whatever you're doing!");
 }
 else if (happy.equals("No")) {
-	JOptionPane.showInputDialog("Do you want to be happy?")
+	String enjoy = JOptionPane.showInputDialog("Do you want to be happy?");
+	if (enjoy.equals("No")) {
+	JOptionPane.showMessageDialog(null, "Keep doing whatever you're doing");
+	}
+	if (enjoy.equals("Yes")) {
+		JOptionPane.showMessageDialog(null, "Change something");
+	}
 }
+
+
 	}
 }
